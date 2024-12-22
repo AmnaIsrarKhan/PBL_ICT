@@ -1,0 +1,111 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    background-color: #f8b400;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+}
+
+/* Team Members Section */
+.team-members {
+    padding: 20px;
+}
+
+/* Member Information Section */
+.member-container {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.member-image img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.member-info {
+    max-width: 600px;
+}
+
+.member-info h2 {
+    font-size: 2.5em;
+    color: #f8b400;
+    margin-bottom: 10px;
+}
+
+.member-info p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Skills & Experience Section */
+.skills-experience {
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.skills-experience h3 {
+    font-size: 2em;
+    color: #f8b400;
+    margin-bottom: 20px;
+}
+
+.skills-experience table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.skills-experience th, .skills-experience td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.skills-experience th {
+    background-color: #f8b400;
+    color: white;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f8b400;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .member-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .member-image img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .member-info h2 {
+        font-size: 2em;
+    }
+
+    .skills-experience table {
+        font-size: 1em;
+    }
+}
